@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | [Challenge Name Here]</title>
+  <!-- font awesome icons -->
+  <link rel="stylesheet" href="css/all.min.css">
+  <!-- google fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;500;700&display=swap" rel="stylesheet">
+  <!-- main style sheet -->
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <section id="main-section">
+    <div class="page-heading">
+      <h1 class="main-header">Simple booking</h1>
+      <p class="desc">
+        Stay in touch with our dog walkers through the chat interface. This makes it easy to 
+        discuss arrangements and make bookings. Once the walk has been completed you can rate 
+        your walker and book again all through the chat.
+      </p>
+    </div>
+    <div class="mobile">
+      <div class="app">
+        <div class="app-header">
+          <i class="fa-solid fa-angle-left"></i>
+          <div class="info">
+            <img src="images/avatar.jpg" class="avatar" alt="user image">  
+            <div class="content">
+              <h2 class="user-name">Samuel Green</h2>
+              <p class="user-state">Available to Walk</p>
+            </div>
+          </div>
+          <i class="fa-solid fa-ellipsis-vertical"></i>
+        </div>
+        <div class="app-body">
+          <div class="messages">
+            <p class="left message">
+              That sounds great. I’d be happy with that.
+            </p>
+            <p class="left message">
+              Could you send over some pictures of your dog, please?
+            </p>
+            <div class="dog-images">
+              <img src="images/dog-image-1.jpg" alt="dog image">
+              <img src="images/dog-image-2.jpg" alt="dog image">
+              <img src="images/dog-image-3.jpg" alt="dog image">
+            </div>
+            <p class="right message">
+              Here are a few pictures. She’s a happy girl!
+            </p>
+            <p class="right message">
+              Can you make it?
+            </p>
+            <p class="left message">
+              She looks so happy! The time we discussed works. How long shall I take her out for?
+            </p>
+            <form class="radio-btns" action="" method="post">
+              <label for="half-hour">
+                <input type="radio" name="plan" id="half-hour" >
+                <p>
+                  <span class="duration">30 minute walk</span>
+                  <span class="price">$29</span>
+                </p>
+              </label>
+              <label for="hour">
+                <input type="radio" name="plan" id="hour" >
+                <p>
+                  <span class="duration">1 hour walk</span>
+                  <span class="price">$49</span>
+                </p>
+              </label>
+            </form>
+          </div>
+        </div>
+        <div class="app-footer">
+          <label for="message">
+            <input id="message" type="text" placeholder="Type a message…">
+            <button type="submit"><i class="fa-solid fa-angle-right"></i></button>
+          </label>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a target="_blank" href="https://github.com/Mo-Mekawy">Mekawy Mohamed</a>.
+  </div>
+</body>
+</html>
